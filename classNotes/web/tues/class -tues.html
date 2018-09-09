@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <style>.box {
+        background-color: #ccc;
+        /* padding: 50px; */
+        padding-top: 40px;
+        border: 20px solid black;
+        margin: 0px 10px 10px 40px;
+      }
+      div{
+          background-color: yellow;
+          width: 45%;
+          margin-bottom: 10px;
+          padding: 40px;
+          border: black 10px solid;
+      }
+      
+      body{
+          margin: 0px;
+          /* gets rid of space around content */
+
+      }
+      </style>
+
+      
+
+    <div class="box">
+        The Content
+      </div>
+
+      <div class="box">
+        The Content
+      </div>
+    <div>div 1
+    </div><div>div 2</div>
+    <!-- div is block element -->
+    <div>i like tea</div>
+    <div>i like tea</div>
+    <!-- span is inline element -->
+    <span>I like tea</span>
+    <span>I like tea</span>
+</body>
+</html>
+
+
+
+<!-- display:inline-block (allows inline to act like block, allowing height and width) -->
+<!-- inline elements do not function like block elements -->
+
+relative postition allows to move out of normal container
+position:relative\
+
+absolute moves and eliminates dead space, can only use if parent container has <position:relative>
+    you can just move it around and it's like it never belonged to that container
+
+fixed - scroll around and it stays (ex. nav bar)
+position: fixed
+
+z-index - reorganize stacking order
+give it number, higher number takes precedence
+z-index:10 is on top of z-index:9
+
+
+float - float elements around
+use clear function to wrap background around image and text if needed

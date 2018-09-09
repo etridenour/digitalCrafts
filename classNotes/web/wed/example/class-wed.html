@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<style>
+    .container{
+        width: 900px;
+        background-color: lightgrey;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
+    .header{
+        background-color: yellow;
+        height: 300px;
+    }
+
+    .main{
+        background-color: turquoise;
+        height: 300px;
+    }
+
+    .mypics{
+        width: 420px;
+        height: 100px;
+        background-color: pink;
+        float: left;
+        margin-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .move{
+        width: 400px;
+        height: 200px;
+        background-color: orange;
+        /* position: relative;
+        top: 0px; */
+        padding: 20px;
+        border: red 20px solid;
+        box-sizing: border-box;
+        /* box sizing makes everything fit into the specified width and height size */
+
+    }
+
+    .clear{
+        clear: both;
+    }
+    /* clear knows the pink boxes are there and adjusts */
+</style>
+<body>
+    <div class='container'>
+        <div class='header'>Header</div>
+
+        <div class='main'>Main Content <br>
+            
+                <div class='mypics'> pic1</div>
+                <div class='mypics'>pic2</div>
+                <div class='clear'></div>
+                <div class='move'> Moved around</div>
+                <div>other stuff
+                    other stuff</div>
+
+
+    
+    
+</body>
+</html>

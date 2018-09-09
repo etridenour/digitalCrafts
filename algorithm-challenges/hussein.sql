@@ -1,0 +1,4 @@
+SELECT *
+FROM restaurant
+ORDER BY id DESC
+LIMIT 1 OFFSET 1;

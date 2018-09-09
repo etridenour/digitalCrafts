@@ -1,0 +1,54 @@
+div{
+    background-color:grey;
+    font-size: 24px;
+    color: black;
+}
+
+
+a{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+table{
+    border: green 3px dotted;
+}
+
+td{
+    border: black 1px solid
+}
+
+th{
+    background-color: yellow;
+}
+
+img{
+    border-radius: 50%
+}
+
+#myDiv{
+    background-color: purple;
+}
+
+.myClassName{
+    color: red;
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.myFont{
+    font-size: 109px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+body{
+    background-color: rgb(179, 109, 109);
+}

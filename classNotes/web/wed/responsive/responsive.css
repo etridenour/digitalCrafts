@@ -1,0 +1,25 @@
+.container{
+    background-color: turquoise;
+    height: 300px;
+    width: 100%;
+
+}
+
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    .container{
+        background-color: yellow;
+    }
+    img{
+        width:100%;
+    }
+    
+}
+
+/* .responsive{
+    max-width: 100%;
+    height: auto;
+} */
