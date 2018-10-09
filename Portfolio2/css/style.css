@@ -73,7 +73,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 1111111111;
-    background: url(../img/loader1.gif) center no-repeat #fff;
+    
 }
 
 
@@ -1367,6 +1367,11 @@ canvas {
 
 /*=========================================================================== PORTFOLIO ===============================================================*/
 
+.builtWith{
+    margin-top: 5%;
+    text-align: center;
+}
+
 .greyBox{
     background-color: rgb(236, 236, 236);
     width:100%;
@@ -1655,11 +1660,12 @@ canvas {
     width: 50%;
     margin-bottom: 3%;
 }
-@media (max-width: 908px) { 
-    #p1{
+
+ @media only screen and (max-width: 500px) {
+    p1{
         width: 80%;
     }
- }
+}
 
 #p2{
     position: relative;
@@ -1678,8 +1684,8 @@ canvas {
 }
 
 .vid1{
-    display: block;
-    width: 100%;
+    
+    width: 800px;
     height: 450px;
     border-radius: 10px;
 }
@@ -2359,6 +2365,11 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 .logos1{
     width:8%;
+}
+@media only screen and (max-width: 764px) {
+    .logoText{
+        font-size: 10px;
+    }
 }
 
 .logos2{
